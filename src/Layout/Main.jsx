@@ -14,7 +14,7 @@ const Main = () => {
            <About></About>
            <Skills></Skills>
            <Projects></Projects>
-           <Contact></Contact>
+           <Contact></Contact>  
            <Footer></Footer>
         </div>
     );

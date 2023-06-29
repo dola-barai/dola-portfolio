@@ -3,7 +3,7 @@ import { MdCall, MdEmail } from 'react-icons/md';
 import './Contact.css'
 const Contact = () => {
     return (
-        <div className='bg-slate-700 bgImage py-16'>
+        <div className='bgImageC py-16'>
             <div className="text-center mb-12">
                 <h3 className="text-orange-500 font-semibold font-mono">Contact Me</h3>
                 <h2 className='text-3xl pb-3 font-semibold text-white'>I Want To Here From You</h2>
@@ -13,7 +13,7 @@ const Contact = () => {
                 <div className="ms-10 md:ms-56">
                     <div className="flex ">
                       <div>
-                         <FaMapMarkerAlt className="bg-white h-12 w-12 rounded-full text-amber-700"></FaMapMarkerAlt>
+                         <FaMapMarkerAlt className="bg-white h-12 w-12 rounded-full text-purple-700"></FaMapMarkerAlt>
                       </div>
                       <div className="ms-6">
                         <h3 className="text-white text-2xl font-semibold">Address</h3>
@@ -22,7 +22,7 @@ const Contact = () => {
                     </div>
                     <div className="flex py-12">
                       <div>
-                         <MdEmail className="bg-white h-12 w-12 rounded-full text-amber-700"></MdEmail>
+                         <MdEmail className="bg-white h-12 w-12 rounded-full text-purple-700"></MdEmail>
                       </div>
                       <div className="ms-6">
                         <h3 className="text-white text-2xl font-semibold">Email</h3>
@@ -31,7 +31,7 @@ const Contact = () => {
                     </div>
                     <div className="flex">
                       <div>
-                         <MdCall className="bg-white h-12 w-12 rounded-full text-amber-700"></MdCall>
+                         <MdCall className="bg-white h-12 w-12 rounded-full text-purple-700"></MdCall>
                       </div>
                       <div className="ms-6">
                         <h3 className="text-white text-2xl font-semibold">Phone</h3>
@@ -39,7 +39,7 @@ const Contact = () => {
                       </div>
                     </div>
                 </div>
-                <div>
+                <form>
                     <div className="flex gap-2 mb-2">
                     <input type="text" placeholder="Your Name" className="input input-bordered bg-opacity-10 text-white" />
                     <input type="email" placeholder="Your Email" className="input input-bordered bg-opacity-10 text-white" />
@@ -48,11 +48,11 @@ const Contact = () => {
                     <input type="number" placeholder="Your Phone" className="input input-bordered bg-opacity-10 text-white" />
                     <input type="text" placeholder="Subject" className="input input-bordered bg-opacity-10 text-white" />
                     </div>
-                    <input type="text" placeholder="Message" className="input input-bordered md:w-4/6 h-24 bg-opacity-10 mb-2 text-white" />
+                    <textarea name="message" placeholder="Write Your Message..." className="input input-bordered bg-opacity-10 text-white h-24" rows={4} cols={53} />
                     <div>
-                    <input className="btn btn-error text-white md:w-4/6 " type="submit" value="Submit Now" />
+                    <input className="btn btn-primary normal-case border-b-4 border-amber-700 text-amber-300 mt-2" type="submit" value="Submit Now" />
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     );
