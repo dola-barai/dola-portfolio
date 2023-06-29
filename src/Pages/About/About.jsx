@@ -1,9 +1,11 @@
 import { Link as ScrollLink } from 'react-scroll';
 import './About.css'
 import { AwesomeButton } from 'react-awesome-button';
+
 const About = () => {
     return (
         <div>
+
             <div className="hero min-h-screen bgImageA">
                 <div className="hero-content flex-col lg:flex-row">
                     <img className="transition ease-in-out delay-0 hover:scale-110 duration-300 h-96" src="https://i.ibb.co/PDYmzzH/ddbb-removebg-preview.png" />

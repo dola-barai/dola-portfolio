@@ -7,9 +7,12 @@ import mongo from '../../assets/mongo.png'
 
 import './Skills.css'
 import ProgressBar from "@ramonak/react-progress-bar";
+
 const Skills = () => {
     return (
-        <div className="bgImageS py-8">
+        <div>
+
+            <div className="bgImageS py-8">
             <div className="text-center mb-6">
                 <h2 className="text-orange-500 font-semibold font-mono">Skills</h2>
                 <h4 className="text-3xl pb-3 font-semibold text-white">I Develop Skills Regularly to Keep Me Update</h4>
@@ -51,6 +54,7 @@ const Skills = () => {
                 <img className='h-28 w-28 rounded-xl animate-pulse' src={mongo} />
             </div>
             </div>
+        </div>
         </div>
     );
 };

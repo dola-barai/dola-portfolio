@@ -1,6 +1,5 @@
 import { AwesomeButton } from "react-awesome-button";
 import 'react-awesome-button/dist/styles.css';
-import { Link } from "react-router-dom";
 import { Link as ScrollLink } from 'react-scroll';
 import { BiLogoLinkedin } from 'react-icons/bi'
 import { MdCall, MdOutlineEmail } from 'react-icons/md';
@@ -8,9 +7,13 @@ import html from '../../assets/html.png'
 import css from '../../assets/css.png'
 import react from '../../assets/react.png'
 import './Home.css'
+import { Helmet } from "react-helmet-async";
 const Home = () => {
     return (
         <div>
+            <Helmet>
+                <title>Portfolio</title>
+            </Helmet>
             <div className="hero min-h-screen bgImageH px-28">
                 <div className="hero-content  flex-col lg:flex-row-reverse gap-12">
                     <div className="flex-shrink-0 max-w-sm">
