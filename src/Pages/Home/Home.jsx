@@ -1,6 +1,7 @@
 import { AwesomeButton } from "react-awesome-button";
 import 'react-awesome-button/dist/styles.css';
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 import { BiLogoLinkedin } from 'react-icons/bi'
 import { MdCall, MdOutlineEmail } from 'react-icons/md';
 import html from '../../assets/html.png'
@@ -32,15 +33,24 @@ const Home = () => {
                         <h1 className="text-2xl text-white">A <span className="text-sky-600">Web Developer</span> From <span className="text-amber-500">Bangladesh</span></h1>
                         <p className="py-4 text-white">I'm Web Developer based in Bangladesh, and I'm very passionate and dedicated to my work.</p>
                         <div className="md:flex items-center sm:mx-auto">
-                        <Link to='/about'><AwesomeButton type="danger" >About Me</AwesomeButton></Link>
-                        <div className="ms-6 flex ">
-                            <MdCall className="h-6 w-6 me-3 text-white"></MdCall>
-                            <MdOutlineEmail className=" h-6 w-6 me-3 text-white"></MdOutlineEmail>
-                            <BiLogoLinkedin className=" h-6 w-6 me-3 text-white"></BiLogoLinkedin>
-                        </div>
+                            <ScrollLink
+                                to="about"
+                                smooth={true}
+                                duration={500}
+                                offset={-70}
+                                spy={true}
+                                activeClass="active"
+                            >
+                                <AwesomeButton type="danger">About Me</AwesomeButton>
+                            </ScrollLink>
+                            <div className="ms-6 flex ">
+                                <MdCall className="h-6 w-6 me-3 text-white"></MdCall>
+                                <MdOutlineEmail className=" h-6 w-6 me-3 text-white"></MdOutlineEmail>
+                                <BiLogoLinkedin className=" h-6 w-6 me-3 text-white"></BiLogoLinkedin>
+                            </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

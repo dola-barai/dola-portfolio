@@ -43,12 +43,12 @@ const Skills = () => {
                 <br></br>
             </div>
             <div className='grid grid-cols-2 gap-5 mx-20 my-20'>
-                <img className='h-28 w-28 rounded-xl animate-ping' src={html} />
-                <img className='h-28 w-28 rounded-xl animate-ping' src={css} />
+                <img className='h-28 w-28 rounded-xl animate-pulse' src={html} />
+                <img className='h-28 w-28 rounded-xl animate-pulse' src={css} />
                 <img className='h-28 w-28 rounded-xl mx-16 animate-pulse' src={js} />
                 <img className='h-28 w-28 rounded-xl -mx-16 animate-pulse' src={react} />
-                <img className='h-28 w-28 rounded-xl animate-ping' src={node} />
-                <img className='h-28 w-28 rounded-xl animate-ping' src={mongo} />
+                <img className='h-28 w-28 rounded-xl animate-pulse' src={node} />
+                <img className='h-28 w-28 rounded-xl animate-pulse' src={mongo} />
             </div>
             </div>
         </div>
