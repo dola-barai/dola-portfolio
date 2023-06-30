@@ -95,13 +95,13 @@ const Navbar = () => {
           </ScrollLink>
         </li>
         <li>
-          <Link
+          <button
             onClick={handleDownload}
-            className="btn btn-sm normal-case btn-outline btn-error border-2 rounded-2xl"
+            className="btn btn-sm btn-active btn-primary normal-case rounded-xl hover:text-orange-500"
           >
             <RxDownload />
             Download Resume
-          </Link>
+          </button>
         </li>
       </>
     );

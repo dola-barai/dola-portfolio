@@ -8,6 +8,7 @@ import css from '../../assets/css.png'
 import react from '../../assets/react.png'
 import './Home.css'
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <div>
@@ -46,6 +47,9 @@ const Home = () => {
                             >
                                 <AwesomeButton type="danger">About Me</AwesomeButton>
                             </ScrollLink>
+                            <div className="ms-3">
+                            <Link to='https://drive.google.com/file/d/1OPldW9ViYJw4d_ck6V-vsZxHrMxITgGD/view?usp=sharing'><AwesomeButton className="" type="primary">View Resume</AwesomeButton></Link>
+                            </div>
                             <div className="ms-6 flex ">
                                 <MdCall className="h-6 w-6 me-3 text-white"></MdCall>
                                 <MdOutlineEmail className=" h-6 w-6 me-3 text-white"></MdOutlineEmail>
