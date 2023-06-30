@@ -14,7 +14,7 @@ const Projects = () => {
                     <h4 className="text-3xl pb-3 font-semibold text-white">My Recent Projects</h4>
                 </div>
 
-                <div className='grid md:grid-cols-3 gap-4 '>
+                <div className='grid grid-cols-1 mx-16 md:grid-cols-3 gap-4 '>
                     {/* First */}
                     <div>
                         <div className="card w-96 lg:mx-8" onClick={() => window.my_modal_3.showModal()}>

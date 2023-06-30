@@ -42,6 +42,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className="mx-10">
           <form>
             <div className="flex gap-2 mb-2">
               <input type="text" placeholder="Your Name" className="input input-bordered bg-opacity-10 text-white" />
@@ -56,6 +57,7 @@ const Contact = () => {
               <input className="btn btn-primary normal-case border-b-4 border-amber-700 text-amber-300 mt-2" type="submit" value="Submit Now" />
             </div>
           </form>
+          </div>
         </div>
       </div>
     </div>
