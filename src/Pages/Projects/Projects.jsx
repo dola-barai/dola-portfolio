@@ -27,7 +27,16 @@ const Projects = () => {
                                 transitionSpeed={200}
                                 gyroscope={true}
                             >
-                                <img className='h-96 w-96 rounded-xl inner-element' src="https://i.ibb.co/rmWpY1h/Screenshot-2023-06-29-162004.png" />
+                                <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
+                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                        <img
+                                            src="https://i.ibb.co/KLxBZkC/jingle-m.png"
+                                            alt=""
+                                            className="w-full object-cover object-top rounded-lg"
+                                        />
+                                    </div>
+                                </div>
+
                             </Tilt>
 
                             <div className="card-body">
@@ -86,7 +95,15 @@ const Projects = () => {
                                 transitionSpeed={200}
                                 gyroscope={true}
                             >
-                                <img className='h-96 w-96 rounded-xl inner-element' src="https://i.ibb.co/mNH4D2d/doll-store.png" />
+                                <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
+                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                        <img
+                                            src="https://i.ibb.co/gVsVHZV/twinkle-kids-doll-store-web-app.png"
+                                            alt=""
+                                            className="w-full object-cover object-top rounded-lg"
+                                        />
+                                    </div>
+                                </div>
                             </Tilt>
 
                             <div className="card-body">
@@ -144,7 +161,15 @@ const Projects = () => {
                                 transitionSpeed={200}
                                 gyroscope={true}
                             >
-                                <img className='h-96 w-96 rounded-xl inner-element' src="https://i.ibb.co/pb6dp0Q/best-food.png" />
+                                <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
+                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                        <img
+                                            src="https://i.ibb.co/SNHfynT/best-vegans-food-web-app.png"
+                                            alt=""
+                                            className="w-full object-cover object-top rounded-lg"
+                                        />
+                                    </div>
+                                </div>
                             </Tilt>
 
                             <div className="card-body">

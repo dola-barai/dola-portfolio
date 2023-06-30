@@ -97,7 +97,7 @@ const Navbar = () => {
         <li>
           <button
             onClick={handleDownload}
-            className="btn btn-sm btn-active btn-primary normal-case rounded-xl hover:text-orange-500"
+            className="btn btn-sm btn-active btn-error normal-case rounded-xl hover:text-orange-500"
           >
             <RxDownload />
             Download Resume

@@ -48,7 +48,7 @@ const Home = () => {
                                 <AwesomeButton type="danger">About Me</AwesomeButton>
                             </ScrollLink>
                             <div className="ms-3">
-                            <Link to='https://drive.google.com/file/d/1OPldW9ViYJw4d_ck6V-vsZxHrMxITgGD/view?usp=sharing'><AwesomeButton className="" type="primary">View Resume</AwesomeButton></Link>
+                            <Link to='https://drive.google.com/file/d/1WNfEQTVsX7H0nHJ7-PrCbSZG4866663V/view?usp=sharing'><AwesomeButton className="" type="primary">View Resume</AwesomeButton></Link>
                             </div>
                             <div className="ms-6 flex ">
                                 <MdCall className="h-6 w-6 me-3 text-white"></MdCall>
