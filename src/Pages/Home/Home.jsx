@@ -15,9 +15,9 @@ const Home = () => {
             <Helmet>
                 <title>Portfolio</title>
             </Helmet>
-            <div className="hero min-h-screen bgImageH px-28">
+            <div className="hero min-h-screen bgImageH">
                 <div className="hero-content  flex-col lg:flex-row-reverse gap-12">
-                    <div className="flex-shrink-0 max-w-sm">
+                    <div className="md:flex-shrink-0 max-w-sm">
                         <div className="image">
                             <img className="transition ease-in-out delay-0 hover:scale-110 duration-300" src="https://i.ibb.co/PxVhq1Q/doladola.png" />
                             <span className="anim_moveBottom">
