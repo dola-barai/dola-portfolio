@@ -113,7 +113,7 @@ const Contact = () => {
               </div>
               <textarea name="message" placeholder="Write Your Message..." className="input input-bordered bg-opacity-10 text-white h-24" rows={4} cols={53} />
               <div>
-                <input className="btn btn-primary normal-case border-b-4 border-amber-700 text-amber-300 mt-2" type="submit" value="Submit Now" />
+                <input className="btn btn-primary normal-case border-b-4 border-amber-700 text-amber-300 mt-2" type="submit" disabled={state.submitting} value="Submit Now" />
               </div>
             </form>
           </div>
