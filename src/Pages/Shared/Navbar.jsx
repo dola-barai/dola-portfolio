@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from '../../assets/logo.png';
 import { RxDownload } from "react-icons/rx";
 import { Link as ScrollLink, Element, scroller } from 'react-scroll';
@@ -10,11 +9,11 @@ import Contact from "../Contact/Contact";
 
 const Navbar = () => {
     const handleDownload = () => {
-      const filePath = '/Resume-Dola-Barai.pdf'; // Replace with the path to your PDF file
+      const filePath = '/Resume of Dola Barai'; // Replace with the path to your PDF file
   
       const link = document.createElement('a');
       link.href = filePath;
-      link.download = 'Resume-Dola-Barai.pdf'; // Replace with the desired filename and extension
+      link.download = 'Resume of Dola Barai'; // Replace with the desired filename and extension
       link.click();
     };
   
