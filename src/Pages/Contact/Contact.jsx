@@ -3,6 +3,7 @@ import { MdCall, MdEmail } from 'react-icons/md';
 import './Contact.css'
 
 const Contact = () => {
+ 
   return (
     <div>
 
@@ -43,14 +44,14 @@ const Contact = () => {
             </div>
           </div>
           <div className="mx-10">
-          <form>
+          <form action="https://formspree.io/f/mjvqbjqn" method="POST"> 
             <div className="flex gap-2 mb-2">
-              <input type="text" placeholder="Your Name" className="input input-bordered bg-opacity-10 text-white" />
-              <input type="email" placeholder="Your Email" className="input input-bordered bg-opacity-10 text-white" />
+              <input type="text" name="name" placeholder="Your Name" className="input input-bordered bg-opacity-10 text-white" />
+              <input type="email" name="email" placeholder="Your Email" className="input input-bordered bg-opacity-10 text-white" />
             </div>
             <div className="flex gap-2 mb-2">
-              <input type="number" placeholder="Your Phone" className="input input-bordered bg-opacity-10 text-white" />
-              <input type="text" placeholder="Subject" className="input input-bordered bg-opacity-10 text-white" />
+              <input type="text" name="password" placeholder="Your Phone" className="input input-bordered bg-opacity-10 text-white" />
+              <input type="text" name="message" placeholder="Subject" className="input input-bordered bg-opacity-10 text-white" />
             </div>
             <textarea name="message" placeholder="Write Your Message..." className="input input-bordered bg-opacity-10 text-white h-24" rows={4} cols={53} />
             <div>
