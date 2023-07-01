@@ -28,7 +28,7 @@ const Projects = () => {
                                 gyroscope={true}
                             >
                                 <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
-                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                    <div className="h-max w-48 md:w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
                                         <img
                                             src="https://i.ibb.co/KLxBZkC/jingle-m.png"
                                             alt=""
@@ -41,7 +41,7 @@ const Projects = () => {
 
                             <div className="card-body">
                                 <h2 className="text-orange-500 ">React JS Project</h2>
-                                <p className='text-xl font-semibold text-white hover:text-orange-500'>JINGLE - Music Instrument Learning School</p>
+                                <p className='md:text-xl font-semibold text-white hover:text-orange-500'>JINGLE - Music Instrument Learning School</p>
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@ const Projects = () => {
                                 gyroscope={true}
                             >
                                 <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
-                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                    <div className="h-max w-48 md:w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
                                         <img
                                             src="https://i.ibb.co/gVsVHZV/twinkle-kids-doll-store-web-app.png"
                                             alt=""
@@ -108,7 +108,7 @@ const Projects = () => {
 
                             <div className="card-body">
                                 <h2 className="text-orange-500 ">React JS Project</h2>
-                                <p className='text-xl font-semibold text-white hover:text-orange-500'>Twinkle - Kids Doll Store</p>
+                                <p className='md:text-xl font-semibold text-white hover:text-orange-500'>Twinkle - Kids Doll Store</p>
                             </div>
                         </div>
                         {/* You can open the modal using ID.showModal() method */}
@@ -162,7 +162,7 @@ const Projects = () => {
                                 gyroscope={true}
                             >
                                 <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
-                                    <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
+                                    <div className="h-max w-48 md:w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
                                         <img
                                             src="https://i.ibb.co/SNHfynT/best-vegans-food-web-app.png"
                                             alt=""
@@ -174,7 +174,7 @@ const Projects = () => {
 
                             <div className="card-body">
                                 <h2 className="text-orange-500 ">React JS Project</h2>
-                                <p className='text-xl font-semibold text-white hover:text-orange-500'>Best Vegans Food</p>
+                                <p className='md:text-xl font-semibold text-white hover:text-orange-500'>Best Vegans Food</p>
                             </div>
                         </div>
                         {/* You can open the modal using ID.showModal() method */}
