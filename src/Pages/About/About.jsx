@@ -8,7 +8,7 @@ const About = () => {
 
             <div className="hero min-h-screen bgImageA">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img className="transition ease-in-out delay-0 hover:scale-110 duration-300 h-96" src="https://i.ibb.co/PDYmzzH/ddbb-removebg-preview.png" />
+                    <img className="transition md:ease-in-out delay-0 md:hover:scale-110 duration-300 md:h-96" src="https://i.ibb.co/PDYmzzH/ddbb-removebg-preview.png" />
                     <div className='mx-2 md:mx-10'>
                         <h1 className="text-orange-500 font-semibold font-mono">About Me</h1>
                         <h3 className="text-3xl pb-3 font-semibold text-white">Custom Project Creator to Your Needs</h3>
