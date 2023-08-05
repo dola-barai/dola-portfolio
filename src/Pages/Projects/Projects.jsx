@@ -30,7 +30,7 @@ const Projects = () => {
                                 <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
                                     <div className="h-max w-48 md:w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
                                         <img
-                                            src="https://i.ibb.co/KLxBZkC/jingle-m.png"
+                                            src="https://i.ibb.co/swKF6Rg/jingle-mis-project-web-app-2.png"
                                             alt=""
                                             className="w-full object-cover object-top rounded-lg"
                                         />

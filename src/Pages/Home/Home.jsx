@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="hero-content  flex-col lg:flex-row-reverse gap-12">
                     <div className="md:flex-shrink-0 max-w-sm">
                         <div className="image">
-                            <img className="transition ease-in-out delay-0 hover:scale-110 duration-300" src="https://i.ibb.co/PxVhq1Q/doladola.png" />
+                            <img className="transition ease-in-out delay-0 hover:scale-110 duration-300 " src="https://i.ibb.co/PxVhq1Q/doladola.png" />
                             <span className="anim_moveBottom">
                                 <img className="h-8 rounded absolute top-52 animate-bounce" src={html} />
                             </span>
